@@ -3,11 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-replace_all.bat
-replace_dat.bat
-replace_res.bat
-world.txt
-
 # User-specific files
 *.rsuser
 *.suo
@@ -401,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+.vscode/
+.scripts/
+.out/
+.releases/
