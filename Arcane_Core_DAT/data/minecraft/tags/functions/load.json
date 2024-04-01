@@ -1,5 +1,5 @@
 {
     "values": [
-        "arcane_core:core/init"
+        "arcane_core:internal/core/load"
     ]
 }
