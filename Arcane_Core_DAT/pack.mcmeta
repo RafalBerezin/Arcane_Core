@@ -1,13 +1,53 @@
 {
     "pack": {
-        "pack_format": 15,
-        "author": {
-            "name": "Rafał Berezin",
-            "github": "https://github.com/RafalBerezin",
-            "discord": "rafalberezin"
-        },  
-        "homepage":"https://github.com/RafalBerezin/Arcane_Core",
-        "version": "1.20_1.0.0",
-        "description": "placeholder"
+        "pack_format": 26,
+        "version": "0.1.0",
+        "license": "MIT",
+        "homepage": "https://modrinth.com/project/arcane-core",
+        "source": "https://github.com/RafalBerezin/Arcane_Core",
+        "description": [
+            {
+                "text": "A ",
+                "color": "white"
+            },
+            {
+                "text": "Powerful",
+                "color": "#edb97e"
+            },
+            {
+                "text": " and ",
+                "color": "white"
+            },
+            {
+                "text": "Versatile",
+                "color": "#edb97e"
+            },
+            {
+                "text": " data pack ",
+                "color": "white"
+            },
+            {
+                "text": "Framework",
+                "color": "#b26fed"
+            },
+            "\n",
+            {
+                "text": "Made by ",
+                "color": "#888888"
+            },
+            {
+                "text": "RafalBerezin",
+                "color": "#acff94"
+            }
+        ],
+        "authors": [
+            {
+                "name": "RafalBerezin",
+                "contact": {
+                    "discord": "rafalberezin",
+                    "github": "https://github.com/RafalBerezin"
+                }
+            }
+        ]
     }
 }
