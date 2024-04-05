@@ -1,3 +1,3 @@
-#> Call to activate the built-in mana module
+#> Called by #arcane_core:modules/deactivate
 
 scoreboard players reset #ac.modules.active.mana ac.flag
