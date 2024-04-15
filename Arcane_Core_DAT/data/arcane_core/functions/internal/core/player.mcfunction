@@ -6,6 +6,6 @@ function arcane_core:internal/utils/player/check_join
 
 function #arcane_core:modules/execute/player_tick
 
-# WIP Action Bar module
+function arcane_core:internal/modules/actionbar/main
 
 function arcane_core:internal/utils/scoreboards/player/tick_reset

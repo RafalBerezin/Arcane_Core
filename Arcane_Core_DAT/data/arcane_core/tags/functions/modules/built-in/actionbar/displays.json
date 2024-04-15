@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "arcane_core:internal/modules/actionbar/displays/clock/display",
+        "arcane_core:internal/modules/actionbar/displays/compass/display",
+        "arcane_core:internal/modules/actionbar/displays/mana/display"
+    ]
+}
