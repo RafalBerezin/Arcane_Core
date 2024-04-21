@@ -1,0 +1,41 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "version": "0.1.0",
+        "license": "MIT",
+        "homepage": "https://modrinth.com/project/arcane-core",
+        "source": "https://github.com/RafalBerezin/Arcane_Core",
+        "description": [
+            {
+                "text": "A resourcepack for ",
+                "color": "white"
+            },
+            {
+                "text": "Arcane Core",
+                "color": "#edb97e"
+            },
+            {
+                "text": " data pack framework",
+                "color": "white"
+            },
+            "\n",
+            {
+                "text": "Made by ",
+                "color": "#888888"
+            },
+            {
+                "text": "RafalBerezin",
+                "color": "#acff94"
+            }
+        ],
+        "authors": [
+            {
+                "name": "RafalBerezin",
+                "contact": {
+                    "discord": "rafalberezin",
+                    "github": "https://github.com/RafalBerezin"
+                }
+            }
+        ]
+    }
+}

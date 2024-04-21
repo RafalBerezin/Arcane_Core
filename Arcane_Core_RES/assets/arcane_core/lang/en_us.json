@@ -1,0 +1,23 @@
+{
+    "ac.icons.chat.sections.info.start":       "\u0110",
+    "ac.icons.chat.sections.info.continue":    "\u0120",
+    "ac.icons.chat.sections.info.end":         "\u0130",
+
+    "ac.icons.chat.sections.warning.start":    "\u0210",
+    "ac.icons.chat.sections.warning.continue": "\u0220",
+    "ac.icons.chat.sections.warning.end":      "\u0230",
+
+    "ac.icons.chat.sections.success.start":    "\u0310",
+    "ac.icons.chat.sections.success.continue": "\u0320",
+    "ac.icons.chat.sections.success.end":      "\u0330",
+
+    "ac.icons.chat.sections.config.start":     "\u0410",
+    "ac.icons.chat.sections.config.continue":  "\u0420",
+    "ac.icons.chat.sections.config.end":       "\u0430",
+
+
+    "ac.icons.chat.buttons-x2.edit": "\u2100",
+
+
+    "ac.icons.chat.badges.op": "\u3100"
+}

@@ -1,0 +1,33 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/chat/sections.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u0110\u0210\u0310\u0410",
+                "\u0120\u0220\u0320\u0420",
+                "\u0130\u0230\u0330\u0430"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/chat/buttons-x2.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u2100"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/chat/badges.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u3100"
+            ]
+        }
+    ]
+}
