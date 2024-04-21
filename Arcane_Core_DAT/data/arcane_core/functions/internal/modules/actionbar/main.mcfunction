@@ -1,4 +1,4 @@
-#> Called by arcane_core:internal/player
+#> Called by arcane_core:internal/player_tick
 
 execute if score #ac.modules.actionbar.in_use ac.flag matches 1 run return 0
 

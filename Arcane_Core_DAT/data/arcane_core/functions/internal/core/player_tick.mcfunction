@@ -1,4 +1,4 @@
-#> Called by arcane_core:internal/core/main
+#> Called by arcane_core:internal/core/tick
 
 function arcane_core:internal/utils/player/check_join
 
