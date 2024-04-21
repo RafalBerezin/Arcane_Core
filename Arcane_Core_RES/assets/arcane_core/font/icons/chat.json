@@ -28,6 +28,15 @@
             "chars": [
                 "\u3100"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/chat/badges-x8.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u4100"
+            ]
         }
     ]
 }
