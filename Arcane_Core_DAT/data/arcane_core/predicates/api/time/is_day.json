@@ -2,6 +2,6 @@
     "condition": "minecraft:inverted",
     "term": {
         "condition": "minecraft:reference",
-        "name": "arcane_core:time/is_night"
+        "name": "arcane_core:api/time/is_night"
     }
 }
