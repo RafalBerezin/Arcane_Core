@@ -1,6 +1,8 @@
 #> Called by arcane_core:internal/core/tick
 
-function arcane_core:internal/utils/player/check_join
+function arcane_core:internal/utils/hooks/player/main
+
+execute if score @s ac.config matches 1.. run function arcane_core:internal/config/handler/main
 
 # WIP Items module
 
