@@ -8,4 +8,4 @@ function #arcane_core:modules/execute/player_tick
 
 function arcane_core:internal/modules/actionbar/main
 
-function arcane_core:internal/utils/scoreboards/player/tick_reset
+function arcane_core:internal/utils/player/tick_reset
