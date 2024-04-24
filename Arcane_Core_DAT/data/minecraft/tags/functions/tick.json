@@ -1,0 +1,6 @@
+{
+    "values": [
+        "arcane_core:internal/core/tick",
+        "arcane_core:internal/core/second"
+    ]
+}
