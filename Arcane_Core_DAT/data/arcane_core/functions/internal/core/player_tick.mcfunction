@@ -4,7 +4,7 @@ function arcane_core:internal/utils/hooks/player/main
 
 execute if score @s ac.config matches 1.. run function arcane_core:internal/config/handler/main
 
-# WIP Items module
+function arcane_core:internal/modules/items/main
 
 function #arcane_core:modules/execute/player_tick
 
