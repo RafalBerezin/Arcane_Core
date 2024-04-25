@@ -27,3 +27,69 @@ Arcane Core is a powerfull Minecraft data pack framework designed to streamline 
     You won't need to write specific code for compatibility with different data packs, as long as they're also built with Arcane Core.
 
 - **Utility**: Provide a rich assortment of utilities that solve various common and uncommon issues and ease the development.
+
+## Main Principles
+
+You won't be adding your function to `minecraft:load.json` and `minecraft:tick.json` function tags like you normally would.
+
+Instead, you'll let Arcane Core handle all that by adding your loading function to `arcane_core:load` and your tick function to an **execution point** (documentation coming soon) or incorporating it into one of the **modules** instead.
+
+**More to come**
+
+## Provided in the Current Version
+
+
+### Modules
+
+Modules are activated pieces of code that provide specific functionality. (Some could be enabled by default)
+
+- **Mana**: A configurable mana system. It regenerates at a rate of 1/s by default.
+- **Actionbar** (always active): Allows you to display information on the player's actionbar while avoiding overwrites. Controls what is passively displayed to the player on the actionbar.
+
+    It comes with 3 built-in passive displays: **mana**,  **compass** and **clock**. Allows for the creation of custom passive displays (more information is coming soon).
+
+- **Custom Items**: Allows you to create custom items and run code when they're held or used. (More information is coming soon)
+
+Arcane Core also allows you to create your own modules or simply execute some code at specific **execution points**. (documentation coming soon)
+
+### Hooks
+
+It allows you to execute some code when a specific event happens.
+
+#### Player hooks
+
+- **Join**: when a player joins the world.
+- **Die**: when a player dies. Executed at the location of death. Compatible with the `doImmediateRespawn` game rule.
+- **Respawn**: when a player respawns. Executed at the respawn location.
+
+### Configuration system
+
+Allows you to configure the built-in functionality using an in-game chat base menu. Opens config menus for other data packs.
+
+### Utilities
+
+#### Time
+
+Provides:
+
+- Predicates to check the time of day.
+
+    (currently only: **day**, **night**)
+
+- Functions to calculate the daytime in ticks or hours and minutes
+
+## Planned Features
+
+### Modules
+
+- **Custom Items**: Add support for worn items.
+- **Damage**: Allows to deal dynamic amounts and types of damage to entities, linked to a damage dealer.
+
+### Utilities
+
+- Linking entities
+- More daytime checks
+
+## Examples
+
+WIP: Examples will be available once the wiki has been completed.
