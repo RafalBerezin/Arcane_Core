@@ -1,7 +1,5 @@
 #> Called by arcane_core:internal/player/tick
 
-execute if score #ac.modules.actionbar.in_use ac.flag matches 1 run return 0
+execute unless entity @s[tag=ac.modules.actionbar.in_use] run function #arcane_core:hooks/modules/actionbar/display
 
-function #arcane_core:hooks/modules/actionbar/display
-
-scoreboard players reset #ac.modules.actionbar.in_use ac.flag
+tag @s remove ac.modules.actionbar.in_use
