@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "arcane_core:internal/modules/actionbar/displays/clock/deactivate",
-        "arcane_core:internal/modules/actionbar/displays/compass/deactivate",
-        "arcane_core:internal/modules/actionbar/displays/mana/deactivate"
-    ]
-}

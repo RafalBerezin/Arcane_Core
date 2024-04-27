@@ -1,5 +1,5 @@
-#> Called by arcane_core:internal/core/player_tick
+#> Called by arcane_core:modules/items/mainhand
 
-function #arcane_core:modules/built-in/items/holding_custom_item
+function #arcane_core:hooks/modules/items/item_tick
 
 scoreboard players set #ac.modules.items.primary ac.flag 0

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "arcane_core:internal/modules/actionbar/displays/clock/disable",
+        "arcane_core:internal/modules/actionbar/displays/compass/disable",
+        "arcane_core:internal/modules/actionbar/displays/mana/disable"
+    ]
+}

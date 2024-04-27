@@ -1,4 +1,4 @@
-#> Called by #arcane_core:modules/built-in/actionbar/displays
+#> Called by #arcane_core:hooks/modules/actionbar/display
 
 execute unless entity @s[tag=ac.modules.actionbar.displays.compass] run return 0
 

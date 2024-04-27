@@ -1,8 +1,8 @@
-#> Called by #arcane_core:modules/built-in/actionbar/displays
+#> Called by #arcane_core:hooks/modules/actionbar/display
 
 execute unless entity @s[tag=ac.modules.actionbar.displays.clock] run return 0
 
-function arcane_core:api/utils/time/get_day_time_hours_and_minutes
+function arcane_core:api/time/get_day_time_hours_and_minutes
 
 execute store success score #ac.temp ac.flag if predicate arcane_core:api/time/is_day
 execute if score #ac.temp ac.flag matches 1 run data modify storage arcane_core:modules root.actionbar.clock.day_time set value {"text": "DAY", "color": "#ffd12f"}

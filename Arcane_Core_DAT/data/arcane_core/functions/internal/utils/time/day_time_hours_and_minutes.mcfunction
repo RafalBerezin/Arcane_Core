@@ -1,8 +1,8 @@
-#> Called by arcane_core:api/utils/time/get_day_time_hours_and_minutes
+#> Called by arcane_core:api/time/get_day_time_hours_and_minutes
 
 execute if score #ac.time.day_time.ticks.hours ac.math matches 0.. if score #ac.time.day_time.ticks.minutes ac.math matches 0.. run return 0
 
-function arcane_core:api/utils/time/get_day_time_ticks
+function arcane_core:api/time/get_day_time_ticks
 
 scoreboard players operation #ac.time.day_time.hours ac.math = #ac.time.day_time.ticks ac.math
 
