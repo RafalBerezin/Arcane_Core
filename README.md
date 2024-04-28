@@ -44,11 +44,12 @@ Instead, you'll let Arcane Core handle all that by adding your loading function 
 Modules are activated pieces of code that provide specific functionality. (Some could be enabled by default)
 
 - **Mana**: A configurable mana system. It regenerates at a rate of 1/s by default.
-- **Actionbar** (always active): Allows you to display information on the player's actionbar while avoiding overwrites. Controls what is passively displayed to the player on the actionbar.
+- **Actionbar** (always active): Display information on the player's actionbar while avoiding overwrites. Controls what is passively displayed to the player on the actionbar.
 
     It comes with 3 built-in passive displays: **mana**,  **compass** and **clock**. Allows for the creation of custom passive displays (more information is coming soon).
 
-- **Custom Items**: Allows you to create custom items and run code when they're held or used. (More information is coming soon)
+- **Items**: Create custom items and run code when they're held or used. (More information is coming soon)
+- **Effects**: Create custom effects.
 
 Arcane Core also allows you to create your own modules or simply execute some code at specific **execution points**. (documentation coming soon)
 
