@@ -5,7 +5,7 @@ function arcane_core:internal/hooks/player/main
 execute if score @s ac.config matches 1.. run function arcane_core:internal/config/handler/main
 
 function arcane_core:internal/modules/items/main
-execute if entity @s[tag=ac.modules.effects.player] run function #arcane_core:hooks/modules/effects/player/tick
+function arcane_core:internal/modules/effects/player
 
 function #arcane_core:hooks/player/tick
 
