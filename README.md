@@ -55,13 +55,57 @@ Arcane Core also allows you to create your own modules or simply execute some co
 
 ### Hooks
 
-It allows you to execute some code when a specific event happens.
+Allows to execute code in a specific point of the framework execution. They're divided into 4 categories: load, tick, second and event.
+(Displayed in execution order in each group)
 
-#### Player hooks
+#### Load hooks
 
-- **Join**: when a player joins the world.
-- **Die**: when a player dies. Executed at the location of death. Compatible with the `doImmediateRespawn` game rule.
-- **Respawn**: when a player respawns. Executed at the respawn location.
+- **modules/disable** Used for automatic disabling of unused modules
+- **general/load** Runs the load functions of other data packs
+- **modules/load** Runs the load functions of modules that are always active or have been activated in **general/load**
+
+#### Tick hooks
+
+Run every tick
+
+- **general/pre_tick**: At the begining of the framework tick
+- ***[PLAYER TICK]***: Runs for every player on every tick: `as @a at @s`
+  
+  - ***[player/ event hooks]***: All the [player event hooks](#event-hooks)
+  - ***[player built-in modules hooks]***: items, effects, cooldowns
+  - **player/tick**: Runs code for the player
+  - ***[actionbar module]***: Shows passive actionbar displays
+  - **player/tick_resets**: Runs at the end of player code. Mainly used for resettings utility scoreboards etc.
+
+- ***[ENTITY TICK]***: Runs for every entity on every tick: `as @e at @s`
+  
+  - ***[entity built-in modules hooks]***: effects
+  - **entity/tick**: Runs code for the entity
+
+- **general/post_tick**: At the end of the framework tick
+
+#### Second hooks
+
+Run every second
+
+- ***[PLAYER SECOND]***: Runs for every player on every second: `as @a at @s`
+  
+  - ***[player built-in modules hooks]***: mana
+  - **player/second**: Runs code for the player
+
+- ***[ENTITY SECOND]***: Runs for every entity on every second: `as @e at @s`
+  
+  - **entity/second**: Runs code for the entity
+
+#### Event hooks
+
+Allows to execute code when a specific event happens.
+
+- **player/join**: when a player joins the world.
+- **player/die**: when a player dies. Executed at the location of death. Compatible with the `doImmediateRespawn` game rule.
+- **player/respawn**: when a player respawns. Executed at the respawn location.
+
+Modules can have their own hooks
 
 ### Configuration system
 
