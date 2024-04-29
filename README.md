@@ -117,11 +117,15 @@ Allows you to configure the built-in functionality using an in-game chat base me
 
 Provides:
 
-- Predicates to check the time of day.
+- Predicates to check the time of day:
 
-    (currently only: **day**, **night**)
+  - day
+  - night
 
-- Functions to calculate the daytime in ticks or hours and minutes
+- Functions to calculate the daytime in:
+
+  - ticks
+  - hours and minutes
 
 ## Planned Features
 
