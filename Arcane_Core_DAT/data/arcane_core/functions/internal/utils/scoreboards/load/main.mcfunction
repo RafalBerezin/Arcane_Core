@@ -2,6 +2,7 @@
 
 scoreboard objectives add ac.flag dummy
 scoreboard objectives add ac.math dummy
+scoreboard objectives add ac.sneak minecraft.custom:minecraft.sneak_time
 
 function arcane_core:internal/utils/scoreboards/load/hooks
 
