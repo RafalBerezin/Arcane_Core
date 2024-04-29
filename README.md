@@ -50,6 +50,7 @@ Modules are activated pieces of code that provide specific functionality. (Some 
 
 - **Items**: Create custom items and run code when they're held or used. (More information is coming soon)
 - **Effects**: Create custom effects.
+- **Cooldowns**: Create cooldowns. (Similar to effects module, but simpler)
 
 Arcane Core also allows you to create your own modules or simply execute some code at specific **execution points**. (documentation coming soon)
 
