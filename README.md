@@ -51,6 +51,7 @@ Modules are activated pieces of code that provide specific functionality. (Some 
 - **Items**: Create custom items and run code when they're held or used. (More information is coming soon)
 - **Effects**: Create custom effects.
 - **Cooldowns**: Create cooldowns. (Similar to effects module, but simpler)
+- **Animate**: Simple animation engine with 2 modes: tick and framed
 
 Arcane Core also allows you to create your own modules or simply execute some code at specific **execution points**. (documentation coming soon)
 
@@ -80,7 +81,7 @@ Run every tick
 
 - ***[ENTITY TICK]***: Runs for every entity on every tick: `as @e at @s`
   
-  - ***[entity built-in modules hooks]***: effects
+  - ***[entity built-in modules hooks]***: effects, animate
   - **entity/tick**: Runs code for the entity
 
 - **general/post_tick**: At the end of the framework tick
