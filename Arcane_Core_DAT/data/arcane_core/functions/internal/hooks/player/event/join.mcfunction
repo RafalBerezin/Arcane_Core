@@ -1,4 +1,4 @@
-#> Called by arcane_core:internal/hooks/player/main
+#> Called by arcane_core:internal/hooks/player/event/main
 
 # The ac.join scoreboard increases when player leaves the game.
 # By setting the score to 1 right after the check we achieve:

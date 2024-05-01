@@ -1,6 +1,6 @@
 #> Called by arcane_core:internal/core/tick
 
-function arcane_core:internal/hooks/player/main
+function arcane_core:internal/hooks/player/event/main
 
 execute if score @s ac.config matches 1.. run function arcane_core:internal/config/handler/main
 

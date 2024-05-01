@@ -1,4 +1,4 @@
-#> Called by #arcane_core:hooks/modules/load
+#> Called by arcane_core:internal/hooks/modules/load
 
 execute unless score #ac.modules.mana.enabled ac.flag matches 1 run return 1
 
