@@ -1,0 +1,22 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/modules/mana.png",
+            "ascent": 9.5,
+            "height": 11,
+            "chars": [
+                "\u0110"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "arcane_core:icons/modules/mana.png",
+            "ascent": 11.5,
+            "height": 16,
+            "chars": [
+                "\u0120"
+            ]
+        }
+    ]
+}

@@ -23,5 +23,8 @@
 
 
     "ac.icons.chat.badges-x8.arcane_core": "\u4100",
-    "ac.icons.chat.badges-x8.choose_config": "\u4200"
+    "ac.icons.chat.badges-x8.choose_config": "\u4200",
+
+    "ac.icons.modules.mana.crystal": "\u0110",
+    "ac.icons.modules.mana.crystal.big": "\u0120"
 }
