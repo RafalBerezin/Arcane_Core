@@ -1,4 +1,9 @@
-#> Call to apply tick animation
+#> arcane_core:api/modules/animate/framed/apply
+#
+# Apply frame animation.
+#
+# @api
+# @context entity
 
 tag @s add ac.modules.animate
 tag @s add ac.modules.animate.framed

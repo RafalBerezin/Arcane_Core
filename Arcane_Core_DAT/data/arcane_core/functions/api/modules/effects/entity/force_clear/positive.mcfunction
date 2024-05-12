@@ -1,4 +1,9 @@
-#> Call to clear positive custom effects from an entity
+#> arcane_core:api/modules/effects/entity/force_clear/positive
+#
+# Clear positive custom effects from an entity.
+#
+# @api
+# @context entity
 
 tag @s remove ac.modules.effects.clear.negative
 tag @s add ac.modules.effects.clear.positive

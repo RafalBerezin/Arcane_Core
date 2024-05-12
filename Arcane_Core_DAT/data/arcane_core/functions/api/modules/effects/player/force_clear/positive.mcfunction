@@ -1,4 +1,9 @@
-#> Call to clear positive custom effects from a player
+#> arcane_core:api/modules/effects/player/force_clear/positive
+#
+# Clear positive custom effects from a player.
+#
+# @api
+# @context player
 
 tag @s remove ac.modules.effects.clear.negative
 tag @s add ac.modules.effects.clear.positive

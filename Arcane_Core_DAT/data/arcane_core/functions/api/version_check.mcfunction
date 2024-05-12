@@ -1,10 +1,25 @@
-#> Call to check the compatibility and display a message if needed
-# macro parameters:
-# project_name [strng]: name or namespace of your project
-# (version of arcane core used in  your project)
-# major [int]: major version
-# minor [int]: minor version
-# patch [int]: patch
+#> arcane_core:api/version_check
+#
+# Check the compatibility and display a message if needed.
+#
+# Example:
+# ```
+# # built with Arcane Core 0.1.3
+# function arcane_core:api/version_check {project_name: "example project", major: 0, minor: 1, patch: 3}
+# ```
+#
+# @api
+#
+# @input
+#   macro
+#       project_name: `string`
+#           name or namespace of your project
+#       major: `int`
+#           Arcane Core major version
+#       minor: `int`
+#           Arcane Core minor version
+#       patch: `int`
+#           Arcane Core patch version
 
 $data modify storage arcane_core:macros root.version_check.project_name set value "$(project_name)"
 

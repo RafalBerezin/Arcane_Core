@@ -1,4 +1,11 @@
-#> Call from #arcane_core:hooks/modules/items/item_tick to check if it's executed for offhand
+#> arcane_core:api/modules/items/is_offhand
+#
+# Check if the functions is executed for offhand.
+#
+# @api
+# @context player
+#
+# @hooks #arcane_core:hooks/modules/items/item_tick
 
 execute if score #ac.modules.items.mainhand ac.flag matches 0 run return 1
 return 0
