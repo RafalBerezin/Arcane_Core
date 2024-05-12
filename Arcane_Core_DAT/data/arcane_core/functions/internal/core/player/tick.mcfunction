@@ -12,4 +12,4 @@ function #arcane_core:hooks/player/tick
 
 function arcane_core:internal/modules/actionbar/main
 
-function arcane_core:internal/utils/player/tick_resets
+function arcane_core:internal/hooks/player/tick_resets

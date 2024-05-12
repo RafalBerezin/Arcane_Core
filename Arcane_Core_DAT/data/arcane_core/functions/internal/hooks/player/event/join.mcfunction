@@ -8,5 +8,7 @@
 # The score won't bo higher as it's being reset back to 1 all the time
 execute if score @s ac.hooks.join matches 1 run return 1
 
+function arcane_core:internal/hooks/config/initialize_player
+
 function #arcane_core:hooks/player/join
 scoreboard players set @s ac.hooks.join 1

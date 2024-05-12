@@ -1,4 +1,4 @@
-#> Called by arcane_core:internal/utils/player/tick_resets
+#> Called by arcane_core:internal/hooks/player/tick_resets
 
 scoreboard players reset @s ac.sneak
 scoreboard players reset @s ac.config
