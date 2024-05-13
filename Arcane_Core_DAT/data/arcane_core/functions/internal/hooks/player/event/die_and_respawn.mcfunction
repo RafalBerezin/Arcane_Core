@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/hooks/player/event/main
+#> arcane_core:internal/hooks/player/event/die_and_respawn
+#
+# @internal
 
 # When a player dies, the minecraft.custom:minecraft.time_since_death is set to 0,
 # and increases by 1 per tick after they have respawned.

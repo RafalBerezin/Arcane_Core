@@ -1,5 +1,8 @@
-#> Call to enable passive mana display for actionbar module
+#> arcane_core:internal/modules/actionbar/displays/mana/enable
+#
 # TODO add to config menu when it's implemented
+#
+# @internal
 
 execute unless score #ac.modules.mana.enabled ac.flag matches 1 run return 1
 

@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/load
+#> arcane_core:internal/hooks/modules/load
+#
+# @internal
 
 function arcane_core:internal/modules/mana/load
 function arcane_core:internal/modules/animate/load

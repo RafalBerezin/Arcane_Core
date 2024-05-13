@@ -1,4 +1,6 @@
-#> Called by #arcane_core:hooks/player/second
+#> arcane_core:internal/modules/mana/main
+#
+# @internal
 
 execute unless score #ac.modules.mana.enabled ac.flag matches 1 run return 1
 

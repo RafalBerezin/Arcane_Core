@@ -1,4 +1,7 @@
-#> Called by arcane_core:internal/core/second
+#> arcane_core:internal/core/player/second
+#
+# @internal
+# @context player
 
 function arcane_core:internal/modules/mana/main
 

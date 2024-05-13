@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/hooks/player/event/die_and_respawn
+#> arcane_core:internal/hooks/player/event/die_and_respawn/die
+#
+# @internal
 
 tag @s add ac.hooks.die_and_respawn.death_triggered
 

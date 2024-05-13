@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/items/main
+#> arcane_core:internal/modules/items/mainhand
+#
+# @internal
 
 scoreboard players set #ac.modules.items.mainhand ac.flag 1
 

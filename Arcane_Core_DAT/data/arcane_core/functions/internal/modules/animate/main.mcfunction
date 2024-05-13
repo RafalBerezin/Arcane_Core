@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/entity/tick
+#> arcane_core:internal/modules/animate/main
+#
+# @internal
 
 execute unless score #ac.modules.animate.enabled ac.flag matches 1 run return 1
 execute unless entity @s[tag=ac.modules.animate] run return 1

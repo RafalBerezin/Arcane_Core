@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/load
+#> arcane_core:internal/utils/scoreboards/load/main
+#
+# @internal
 
 scoreboard objectives add ac.flag dummy
 scoreboard objectives add ac.math dummy

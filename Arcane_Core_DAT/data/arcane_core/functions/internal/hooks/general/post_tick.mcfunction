@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/tick
+#> arcane_core:internal/hooks/general/post_tick
+#
+# @internal
 
 function #arcane_core:hooks/general/post_tick
 

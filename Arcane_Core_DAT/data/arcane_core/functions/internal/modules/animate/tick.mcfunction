@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/animate/main
+#> arcane_core:internal/modules/animate/tick
+#
+# @internal
 
 scoreboard players add @s ac.animate.timer 1
 

@@ -1,4 +1,6 @@
-#> Called by arcane_core:modules/items/mainhand
+#> arcane_core:internal/modules/items/holding_item/mainhand
+#
+# @internal
 
 function #arcane_core:hooks/modules/items/item_tick
 

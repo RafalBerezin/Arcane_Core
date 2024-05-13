@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/load
+#> arcane_core:internal/hooks/modules/disable
+#
+# @internal
 
 function arcane_core:internal/modules/mana/disable
 function arcane_core:internal/modules/items/disable

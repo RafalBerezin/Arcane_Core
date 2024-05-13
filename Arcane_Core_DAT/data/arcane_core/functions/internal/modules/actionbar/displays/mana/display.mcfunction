@@ -1,4 +1,6 @@
-#> Called by #arcane_core:modules/built-in/actionbar/displays
+#> arcane_core:internal/modules/actionbar/displays/mana/display
+#
+# @internal
 
 execute unless entity @s[tag=ac.modules.actionbar.displays.mana] run return 0
 

@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/animate/main
+#> arcane_core:internal/modules/animate/framed
+#
+# @internal
 
 scoreboard players add @s ac.animate.frame.timer 1
 execute if score @s ac.animate.frame.timer < @s ac.animate.frame.length run return 1

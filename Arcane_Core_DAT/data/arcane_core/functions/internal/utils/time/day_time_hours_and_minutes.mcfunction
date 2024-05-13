@@ -1,4 +1,6 @@
-#> Called by arcane_core:api/time/get_day_time_hours_and_minutes
+#> arcane_core:internal/utils/time/day_time_hours_and_minutes
+#
+# @internal
 
 execute if score #ac.time.day_time.ticks.hours ac.math matches 0.. if score #ac.time.day_time.ticks.minutes ac.math matches 0.. run return 0
 

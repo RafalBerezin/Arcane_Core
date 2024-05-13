@@ -1,3 +1,6 @@
-#> Called by arcane_core:internal/core/second
+#> arcane_core:internal/core/entity/second
+#
+# @internal
+# @context entity
 
 function #arcane_core:hooks/entity/second

@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/hooks/player/event/die_and_respawn/die
+#> arcane_core:internal/hooks/player/event/die_and_respawn/position_death/prepare_data
+#
+# @internal
 
 data modify storage arcane_core:macros root.positioning.dimension set from entity @s LastDeathLocation.dimension
 data modify storage arcane_core:macros root.positioning.x set from entity @s LastDeathLocation.pos[0]

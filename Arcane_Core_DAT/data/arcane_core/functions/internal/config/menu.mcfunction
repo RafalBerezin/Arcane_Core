@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/config/handler/main
+#> arcane_core:internal/config/menu
+#
+# @internal
 
 function arcane_core:api/chat/menu/sounds/click
 function arcane_core:internal/utils/chat/menu/sections/config/titles/choose_config

@@ -1,4 +1,7 @@
-#> Called by arcane_core:internal/core/tick
+#> arcane_core:internal/core/player/tick
+#
+# @internal
+# @context player
 
 function arcane_core:internal/hooks/player/event/main
 

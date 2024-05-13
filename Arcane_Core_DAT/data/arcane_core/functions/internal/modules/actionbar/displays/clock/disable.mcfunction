@@ -1,3 +1,5 @@
-#> Called by #arcane_core:hooks/modules/actionbar/disable_displays
+#> arcane_core:internal/modules/actionbar/displays/clock/disable
+#
+# @internal
 
 tag @s remove ac.modules.actionbar.displays.clock

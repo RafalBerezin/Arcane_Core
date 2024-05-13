@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/entity/tick
+#> arcane_core:internal/modules/effects/entity
+#
+# @internal
 
 execute unless score #ac.modules.effects.enabled ac.flag matches 1 run return 1
 

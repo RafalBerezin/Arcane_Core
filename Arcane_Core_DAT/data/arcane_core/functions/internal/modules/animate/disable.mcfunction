@@ -1,3 +1,5 @@
-#> Called by arcane_core:internal/hooks/modules/disable
+#> arcane_core:internal/modules/animate/disable
+#
+# @internal
 
 scoreboard players reset #ac.modules.animate.enabled ac.flag

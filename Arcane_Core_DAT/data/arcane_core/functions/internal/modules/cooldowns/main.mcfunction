@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/player/tick
+#> arcane_core:internal/modules/cooldowns/main
+#
+# @internal
 
 execute unless score #ac.modules.cooldowns.enabled ac.flag matches 1 run return 1
 

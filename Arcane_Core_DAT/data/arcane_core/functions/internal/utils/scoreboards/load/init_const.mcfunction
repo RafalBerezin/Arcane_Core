@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/utils/scoreboards/load/main
+#> arcane_core:internal/utils/scoreboards/load/init_const
+#
+# @internal
 
 scoreboard players set #ac.const.0 ac.math 0
 

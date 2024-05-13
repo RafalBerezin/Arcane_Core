@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/core/load
+#> arcane_core:internal/config/init/global
+#
+# @internal
 
 scoreboard players set #ac.version.major ac.flag 0
 scoreboard players set #ac.version.minor ac.flag 1

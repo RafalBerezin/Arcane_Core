@@ -1,5 +1,8 @@
-#> Called by arcane_core:internal/config/built-in/handler/main
+#> arcane_core:internal/config/built-in/handler/personal/main
+#
 # 100000000..199999999
+#
+# @internal
 
 scoreboard players remove @s ac.config 100000000
 

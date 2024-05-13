@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/mana/main
+#> arcane_core:internal/modules/mana/regen
+#
+# @internal
 
 scoreboard players operation @s ac.mana += @s ac.mana.regen
 

@@ -1,5 +1,9 @@
-#> Called by minecraft:tick
+#> arcane_core:internal/core/tick
+#
 # Main loop. Runs once every tick.
+#
+# @internal
+# @handles #minecraft:tick
 
 function #arcane_core:hooks/general/pre_tick
 

@@ -1,4 +1,7 @@
-#> Called by arcane_core:internal/core/tick
+#> arcane_core:internal/core/entity/tick
+#
+# @internal
+# @context entity
 
 function arcane_core:internal/modules/effects/entity
 

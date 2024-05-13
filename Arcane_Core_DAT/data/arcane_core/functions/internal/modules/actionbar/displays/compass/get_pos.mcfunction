@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/actionbar/displays/compass/display
+#> arcane_core:internal/modules/actionbar/displays/compass/get_pos
+#
+# @internal
 
 execute store result score #ac.temp.modules.actionbar.displays.compass.pos.x ac.flag run data get entity @s Pos[0]
 execute store result score #ac.temp.modules.actionbar.displays.compass.pos.y ac.flag run data get entity @s Pos[1]

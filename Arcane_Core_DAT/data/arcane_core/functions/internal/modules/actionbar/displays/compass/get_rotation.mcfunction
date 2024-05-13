@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/modules/actionbar/displays/compass/display
+#> arcane_core:internal/modules/actionbar/displays/compass/get_rotation
+#
+# @internal
 
 execute if entity @s[y_rotation=-135..-45] run data modify storage arcane_core:modules root.actionbar.compass.rotation set value "E"
 execute unless entity @s[y_rotation=..-45] unless entity @s[y_rotation=45..180] run data modify storage arcane_core:modules root.actionbar.compass.rotation set value "S"

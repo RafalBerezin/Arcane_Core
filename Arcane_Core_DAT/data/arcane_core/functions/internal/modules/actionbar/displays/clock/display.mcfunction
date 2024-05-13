@@ -1,4 +1,6 @@
-#> Called by #arcane_core:hooks/modules/actionbar/display
+#> arcane_core:internal/modules/actionbar/displays/clock/display
+#
+# @internal
 
 execute unless entity @s[tag=ac.modules.actionbar.displays.clock] run return 0
 
