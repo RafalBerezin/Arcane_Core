@@ -1,3 +1,5 @@
-#> Called by arcane_core:internal/core/load
+#> arcane_core:internal/utils/installation/reset
+#
+# @internal
 
-data remove storage arcane_core:installation root
+scoreboard players reset #ac.version_check.show_on_join ac.flag

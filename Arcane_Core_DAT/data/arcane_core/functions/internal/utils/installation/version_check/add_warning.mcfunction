@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/utils/installation/version_check/main
+#> arcane_core:internal/utils/installation/version_check/add_warning
+#
+# @internal
 
 data modify storage arcane_core:installation root.warnings append value {}
 
@@ -10,3 +12,5 @@ execute store result storage arcane_core:installation root.warnings[-1].major.ma
 
 execute store result storage arcane_core:installation root.warnings[-1].minor int 1 run scoreboard players get #ac.version_check.minor ac.flag
 execute store result storage arcane_core:installation root.warnings[-1].patch int 1 run scoreboard players get #ac.version_check.patch ac.flag
+
+return 0

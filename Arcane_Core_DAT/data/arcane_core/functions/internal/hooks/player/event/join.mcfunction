@@ -1,4 +1,6 @@
-#> Called by arcane_core:internal/hooks/player/event/main
+#> arcane_core:internal/hooks/player/event/join
+#
+# @internal
 
 # The ac.join scoreboard increases when player leaves the game.
 # By setting the score to 1 right after the check we achieve:
@@ -9,6 +11,7 @@
 execute if score @s ac.hooks.join matches 1 run return 1
 
 function arcane_core:internal/hooks/config/initialize_player
+execute if score #ac.version_check.show_on_join ac.flag matches 1 run function arcane_core:internal/utils/installation/main
 
 function #arcane_core:hooks/player/join
 scoreboard players set @s ac.hooks.join 1
