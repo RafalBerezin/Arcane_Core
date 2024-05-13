@@ -11,4 +11,6 @@ function arcane_core:internal/config/init/global
 function #arcane_core:hooks/general/load
 function arcane_core:internal/hooks/modules/load
 
+execute as @a run function arcane_core:internal/hooks/config/initialize_player
+
 function arcane_core:internal/utils/installation/main
