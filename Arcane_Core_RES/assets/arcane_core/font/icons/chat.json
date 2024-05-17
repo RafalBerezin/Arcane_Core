@@ -13,6 +13,15 @@
         },
         {
             "type": "bitmap",
+            "file": "arcane_core:icons/chat/buttons.png",
+            "ascent": 11,
+            "height": 16,
+            "chars": [
+                "\u1100"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "arcane_core:icons/chat/buttons-x2.png",
             "ascent": 11,
             "height": 16,
