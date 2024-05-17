@@ -16,8 +16,46 @@
     "ac.icons.chat.sections.config.end":       "\u0430",
 
 
-    "ac.icons.chat.buttons.save": "\u1100",
+    "ac.icons.chat.buttons.locked": "\u1010",
+    "ac.icons.chat.buttons.player_choice": "\u1020",
+    "ac.icons.chat.buttons.unlocked": "\u1030",
+    "ac.icons.chat.buttons.locked.disabled": "\u1011",
+    "ac.icons.chat.buttons.player_choice.disabled": "\u1021",
+    "ac.icons.chat.buttons.unlocked.disabled": "\u1031",
 
+    "ac.icons.chat.buttons.visibility.visible": "\u1040",
+    "ac.icons.chat.buttons.visibility.hidden": "\u1050",
+    "ac.icons.chat.buttons.visibility.visible.disabled": "\u1041",
+    "ac.icons.chat.buttons.visibility.hidden.disabled": "\u1051",
+
+    "ac.icons.chat.buttons.save": "\u1060",
+
+    "ac.icons.chat.buttons.reset": "\u1070",
+    "ac.icons.chat.buttons.infinity": "\u1080",
+    "ac.icons.chat.buttons.reset.disabled": "\u1071",
+    "ac.icons.chat.buttons.infinity.disabled": "\u1081",
+
+    "ac.icons.chat.buttons.subtract.1": "\u1090",
+    "ac.icons.chat.buttons.subtract.5": "\u10a0",
+    "ac.icons.chat.buttons.add.1": "\u10b0",
+    "ac.icons.chat.buttons.add.5": "\u10c0",
+    "ac.icons.chat.buttons.subtract.1.disabled": "\u1091",
+    "ac.icons.chat.buttons.subtract.5.disabled": "\u10a1",
+    "ac.icons.chat.buttons.add.1.disabled": "\u10b1",
+    "ac.icons.chat.buttons.add.5.disabled": "\u10c1",
+
+    "ac.icons.chat.buttons.position.front": "\u10d0",
+    "ac.icons.chat.buttons.position.back": "\u10e0",
+    "ac.icons.chat.buttons.position.top": "\u10f0",
+    "ac.icons.chat.buttons.position.bottom": "\u1100",
+    "ac.icons.chat.buttons.position.left": "\u1110",
+    "ac.icons.chat.buttons.position.right": "\u1120",
+    "ac.icons.chat.buttons.position.front.disabled": "\u10d1",
+    "ac.icons.chat.buttons.position.back.disabled": "\u10e1",
+    "ac.icons.chat.buttons.position.top.disabled": "\u10f1",
+    "ac.icons.chat.buttons.position.bottom.disabled": "\u1101",
+    "ac.icons.chat.buttons.position.left.disabled": "\u1111",
+    "ac.icons.chat.buttons.position.right.disabled": "\u1121",
 
     "ac.icons.chat.buttons-x2.edit": "\u2100",
 
