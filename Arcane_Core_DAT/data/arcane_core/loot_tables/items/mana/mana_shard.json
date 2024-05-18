@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 7920001
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
