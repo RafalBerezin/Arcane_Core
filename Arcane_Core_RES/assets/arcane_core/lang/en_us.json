@@ -29,6 +29,7 @@
     "ac.icons.chat.buttons.visibility.hidden.disabled": "\u1051",
 
     "ac.icons.chat.buttons.save": "\u1060",
+    "ac.icons.chat.buttons.save.disabled": "\u1061",
 
     "ac.icons.chat.buttons.reset": "\u1070",
     "ac.icons.chat.buttons.infinity": "\u1080",
@@ -56,6 +57,12 @@
     "ac.icons.chat.buttons.position.bottom.disabled": "\u1101",
     "ac.icons.chat.buttons.position.left.disabled": "\u1111",
     "ac.icons.chat.buttons.position.right.disabled": "\u1121",
+    
+    "ac.icons.chat.buttons.enable": "\u1130",
+    "ac.icons.chat.buttons.disable": "\u1140",
+    "ac.icons.chat.buttons.enable.disabled": "\u1131",
+    "ac.icons.chat.buttons.disable.disabled": "\u1141",
+
 
     "ac.icons.chat.buttons-x2.edit": "\u2100",
 
