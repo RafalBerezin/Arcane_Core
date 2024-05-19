@@ -63,6 +63,9 @@
     "ac.icons.chat.buttons.enable.disabled": "\u1131",
     "ac.icons.chat.buttons.disable.disabled": "\u1141",
 
+    "ac.icons.chat.buttons.back": "\u1150",
+    "ac.icons.chat.buttons.back.disabled": "\u1151",
+
 
     "ac.icons.chat.buttons-x2.edit": "\u2100",
 
