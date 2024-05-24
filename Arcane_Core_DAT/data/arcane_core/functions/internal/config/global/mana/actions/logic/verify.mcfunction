@@ -24,3 +24,5 @@ scoreboard players operation #ac.config.global.modules.mana.max_mana.gain ac.con
 
 scoreboard players operation #ac.config.global.modules.mana.mana_crystal.animate ac.config > #ac.const.0 ac.math
 scoreboard players operation #ac.config.global.modules.mana.mana_crystal.animate ac.config < #ac.const.1 ac.math
+
+execute as @a run function arcane_core:internal/config/global/mana/actions/logic/verify_player
