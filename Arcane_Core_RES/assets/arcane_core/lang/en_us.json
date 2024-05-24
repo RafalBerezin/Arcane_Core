@@ -31,10 +31,10 @@
     "ac.icons.chat.buttons.save": "\u1060",
     "ac.icons.chat.buttons.save.disabled": "\u1061",
 
-    "ac.icons.chat.buttons.reset": "\u1070",
-    "ac.icons.chat.buttons.infinity": "\u1080",
-    "ac.icons.chat.buttons.reset.disabled": "\u1071",
-    "ac.icons.chat.buttons.infinity.disabled": "\u1081",
+    "ac.icons.chat.buttons.infinity": "\u1070",
+    "ac.icons.chat.buttons.reset": "\u1080",
+    "ac.icons.chat.buttons.infinity.disabled": "\u1071",
+    "ac.icons.chat.buttons.reset.disabled": "\u1081",
 
     "ac.icons.chat.buttons.subtract.1": "\u1090",
     "ac.icons.chat.buttons.subtract.5": "\u10a0",
