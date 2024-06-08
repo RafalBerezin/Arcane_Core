@@ -9,3 +9,4 @@ execute if entity @s[tag=ac.modules.animate.skip_tick] run return run tag @s rem
 
 execute if entity @s[tag=ac.modules.animate.tick] run function arcane_core:internal/modules/animate/tick
 execute if entity @s[tag=ac.modules.animate.framed] run function arcane_core:internal/modules/animate/framed
+execute if entity @s[tag=ac.modules.animate.root] run function arcane_core:internal/modules/animate/root/tick
