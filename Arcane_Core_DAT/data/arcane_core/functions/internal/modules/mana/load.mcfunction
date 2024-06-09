@@ -17,3 +17,11 @@ scoreboard objectives modify ac.mana.max numberformat styled {"color": "#2bb5ff"
 scoreboard objectives modify ac.mana.regen numberformat styled {"color": "#2bb5ff"}
 
 function arcane_core:internal/config/init/modules/mana/global
+
+execute unless score #ac.config.global.modules.mana.mana_crystal.enabled ac.config matches 1 run return 1
+function arcane_core:api/modules/enable/items
+
+execute unless score #ac.config.global.modules.mana.mana_crystal.animate ac.config matches 1 run return 1
+function arcane_core:api/modules/enable/cooldowns
+function arcane_core:api/modules/enable/animate
+scoreboard objectives add ac.modules.cooldowns.built_in.mana_crystal dummy
